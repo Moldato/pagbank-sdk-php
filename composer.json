@@ -1,0 +1,23 @@
+{
+    "name": "moldato/pagbank-sdk-php",
+    "description": "A library to support of the pagbank api v4",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moldato\\PGB\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moldato Technological Solutions",
+            "email": "contato@moldato.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "platform": {
+            "php":"7.3"
+        }
+    }
+}
