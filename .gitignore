@@ -113,6 +113,7 @@ csrc/
 # following switch can also be used:  urg -dir <coverage_directory>.vdb
 simv.vdb/
 urgReport/
+/coverage
 
 # DVE and UCLI related files.
 DVEfiles/
