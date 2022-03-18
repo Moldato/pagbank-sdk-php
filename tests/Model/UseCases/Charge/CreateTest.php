@@ -3,6 +3,7 @@
 namespace Test;
 
 use Moldato\PGB\Model\UseCases\Charge\Create;
+use Moldato\PGB\Model\UseCases\Session;
 use PHPUnit\Framework\TestCase;
 
 // class CredentialSpy {
@@ -26,7 +27,14 @@ class CreateTest extends TestCase {
     // $credentialsSpy = new CredentialSpy('any_token', 'any_mail');
     // $sut = new Create($credentialsSpy);
     $sut = new Create();
+    $this->assertInstanceOf(Create::class, $sut);
     // $sut->setPurchage(1, "Motivo do pagamento");
+  }
+
+  public function testGetSession(){
+    $sut = new Create();
+    return true;
+    // $sut->getSession();
   }
 }
 
