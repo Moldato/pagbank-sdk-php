@@ -1,6 +1,6 @@
 <?php 
 
-namespace Moldato\PGB\Model\Entity;
+namespace Moldato\PagBankSDK\Model\Entity;
 
 class Seller {
   public int $id;

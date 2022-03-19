@@ -1,6 +1,6 @@
 <?php
 
-namespace Moldato\PGB;
+namespace Moldato\PagBankSDK;
 
 class Prepare {
   private $sessionId;

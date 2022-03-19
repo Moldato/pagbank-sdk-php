@@ -1,6 +1,6 @@
 <?php 
 
-namespace Moldato\PGB\Model\Entity;
+namespace Moldato\PagBankSDK\Model\Entity;
 
 class Debito implements Method {
   public function __construct(){

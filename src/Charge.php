@@ -1,14 +1,14 @@
 <?php
 
-namespace Moldato\PGB;
+namespace Moldato\PagBankSDK;
 
-// use Moldato\PGB\Model\UseCases\Session;
-// use Moldato\PGB\Model\Entity\Item;
-// use Moldato\PGB\Model\Entity\Shipping;
-// use Moldato\PGB\Model\Entity\Purchase;
-// use Moldato\PGB\Model\Entity\Customer;
-// use Moldato\PGB\Model\Entity\Seller;
-// use Moldato\PGB\Model\Entity\Method;
+// use Moldato\PagBankSDK\Model\UseCases\Session;
+// use Moldato\PagBankSDK\Model\Entity\Item;
+// use Moldato\PagBankSDK\Model\Entity\Shipping;
+// use Moldato\PagBankSDK\Model\Entity\Purchase;
+// use Moldato\PagBankSDK\Model\Entity\Customer;
+// use Moldato\PagBankSDK\Model\Entity\Seller;
+// use Moldato\PagBankSDK\Model\Entity\Method;
 
 class Charge {
   // private Session $session;

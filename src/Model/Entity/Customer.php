@@ -1,6 +1,6 @@
 <?php 
 
-namespace Moldato\PGB\Model\Entity;
+namespace Moldato\PagBankSDK\Model\Entity;
 
 class Customer {
   public string $hash; /** Identificador do vendedor (fingerprint) gerado pelo JavaScript do PagSeguro. Formato: Obtido a partir de uma chamada javascript PagseguroDirectPayment.onSenderHashReady(). */
