@@ -1,0 +1,26 @@
+paymentMode:default
+mode:default
+paymentMethod:boleto
+currency:BRL
+extraAmount:1.00
+itemId1:0001
+itemDescription1:Notebook Prata
+itemAmount1:24300.00
+itemQuantity1:1
+notificationURL:https://Fsualoja.com.br/notifica.html
+reference:REF1234
+senderName:Jose Comprador
+senderCPF:22111944785
+senderAreaCode:11
+senderPhone:56273440
+senderEmail:comprador@sandbox.pagseguro.com.br
+senderHash:d7987e16cc89269cc2c0fb50288b383fdb5193b9aa94edac54de2cf624e80e88
+shippingAddressStreet:Av. Brig. Faria Lima
+shippingAddressNumber:1384
+shippingAddressComplement:5o andar
+shippingAddressDistrict:Jardim Paulistano
+shippingAddressPostalCode:01452002
+shippingAddressCity:Sao Paulo
+shippingAddressState:SP
+shippingAddressCountry:BRA
+undefined:

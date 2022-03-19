@@ -1,6 +1,6 @@
 <?php
 
-namespace Moldato\PGB\Model\UseCases;
+namespace Moldato\PGB;
 
 class Session {
   private string $email;
