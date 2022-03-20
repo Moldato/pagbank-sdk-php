@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use Moldato\PagBankSDK\Model\Entity\Credentials;
+use Moldato\PagBankSDK\Credentials;
 use Moldato\PagBankSDK\Prepare;
 use Moldato\PagBankSDK\Session;
 

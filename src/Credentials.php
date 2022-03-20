@@ -1,6 +1,6 @@
 <?php
 
-namespace Moldato\PagBankSDK\Model\Entity;
+namespace Moldato\PagBankSDK;
 
 class Credentials {
   public string $email;

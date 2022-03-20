@@ -4,7 +4,6 @@ namespace Moldato\PagBankSDK;
 
 use Moldato\PagBankSDK\Contract\InputPublisher;
 use Moldato\PagBankSDK\Contract\Publisher;
-use Moldato\PagBankSDK\Model\Entity\Credentials;
 
 class Session {
   private Credentials $credentials;
