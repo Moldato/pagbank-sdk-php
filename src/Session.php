@@ -6,8 +6,8 @@ use Moldato\PagBankSDK\Contract\InputPublisher;
 use Moldato\PagBankSDK\Contract\Publisher;
 
 class Session {
-  private Credentials $credentials;
-  private Publisher $publisher;
+  private $credentials;
+  private $publisher;
   private $sessionId;
   /**
    * @param credentials Credentials
