@@ -8,7 +8,7 @@ use Moldato\PagBankSDK\Contract\Publisher;
 class Session {
   private Credentials $credentials;
   private Publisher $publisher;
-  private string $sessionId;
+  private $sessionId;
   /**
    * @param credentials Credentials
    */

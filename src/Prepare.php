@@ -3,7 +3,7 @@
 namespace Moldato\PagBankSDK;
 
 class Prepare {
-  private string $sessionId;
+  private $sessionId;
 
   public function __construct(string $sessionId){
     $this->sessionId = $sessionId;

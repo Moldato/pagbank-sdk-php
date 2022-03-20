@@ -7,6 +7,6 @@ interface Publisher {
 }
 
 class InputPublisher {
-  public string $endpoint;
-  public array $params;
+  public $endpoint;
+  public $params;
 }
