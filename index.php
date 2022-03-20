@@ -1,10 +1,18 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
+use Moldato\PagBankSDK\Model\Entity\Credentials;
 use Moldato\PagBankSDK\Prepare;
+use Moldato\PagBankSDK\Session;
 
-$prepare = new Prepare('any');
+$credentials = new Credentials;
+$credentials->email = 'alysonforever@gmail.com';
+$credentials->token = '953D361099A44089B60B355A9084D72F';
 
-$prepare->getPagBankLib();
+$session = new Session($credentials);
 
-echo $prepare->getPagBankLib();
+$sessionId = $session->create();
+$prepare = new Prepare($sessionId);
+var_dump($prepare->initPagBankLib());
+
+echo $sessionId;

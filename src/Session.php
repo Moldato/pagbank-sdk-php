@@ -2,24 +2,32 @@
 
 namespace Moldato\PagBankSDK;
 
+use Moldato\PagBankSDK\Contract\InputPublisher;
+use Moldato\PagBankSDK\Contract\Publisher;
+use Moldato\PagBankSDK\Model\Entity\Credentials;
+
 class Session {
-  private string $email;
-  private string $token;
+  private Credentials $credentials;
+  private Publisher $publisher;
+  private string $sessionId;
   /**
-   * @param email string
-   * @param token string
+   * @param credentials Credentials
    */
-  function __construct(string $email, string $token){
-    $this->email = $email;
-    $this->token = $token;
-    $this->getSession();
+  public function __construct( Credentials $credentials ) {
+    $this->credentials = $credentials;
+    $this->publisher = new PublisherAdapter();
   }
 
-  public function getId(){
+  public function create(): string {
+    $inputPublisher = new InputPublisher;
+    $inputPublisher->endpoint = 'sessions';
+    $inputPublisher->params = [
+      'email' => $this->credentials->email,
+      'token' => $this->credentials->token
+    ];
 
-  }
-
-  protected function getSession(){
-
+    $response = $this->publisher->sendPost($inputPublisher);
+    $this->sessionId = $response['id'];
+    return $response['id'];
   }
 }
