@@ -1,0 +1,52 @@
+payment.mode:default
+payment.method:creditCard
+reference:ORDER123
+currency:BRL
+notificationURL:https://yourstore.com.br/notification
+
+item[1].description:Product 1 Description
+item[1].amount:100.00
+item[1].quantity:1
+
+sender.name:Customer Name
+sender.CPF:22111944785
+sender.areaCode:11
+sender.phone:56273440
+sender.email:customer@uol.com.br
+sender.hash:c162e6131dbb9696e8b49147a9c5eacabac0cdca91458ee5177819d0a3c9d565
+
+shipping.address.street:Av. Brig. Faria Lima
+shipping.address.number:1384
+shipping.address.complement:5o andar
+shipping.address.district:Jardim Paulistano
+shipping.address.postalCode:01452002
+shipping.address.city:Sao Paulo
+shipping.address.state:SP
+shipping.address.country:BRA
+shipping.type:3
+shipping.cost:0.00
+
+installment.quantity:2
+installment.value:50.00
+installment.noInterestInstallmentQuantity:2
+
+creditCard.token:4as56d4a56d456as456dsa
+creditCard.holder.name:Customer Name
+creditCard.holder.CPF:22111944785
+creditCard.holder.birthDate:27/10/1987
+creditCard.holder.areaCode:11
+creditCard.holder.phone:56273440
+
+billingAddress.street:Av. Brig. Faria Lima
+billingAddress.number:1384
+billingAddress.complement:5o andar
+billingAddress.district:Jardim Paulistano
+billingAddress.postalCode:01452002
+billingAddress.city:Sao Paulo
+billingAddress.state:SP
+billingAddress.country:BRA
+
+primaryReceiver.publicKey:PUBCF30546BDF334CC3A59D772E3636D8D3
+
+receiver[1].publicKey:PUBCF30546BDF334CC3A59D772E3636D8D5
+receiver[1].split.amount:30.00"

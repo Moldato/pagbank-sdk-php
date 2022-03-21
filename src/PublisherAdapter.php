@@ -11,7 +11,7 @@ class PublisherAdapter implements Publisher {
 
   public function __construct(){
     $this->client = new GuzzClient([
-      'base_uri'=> 'https://ws.sandbox.pagseguro.uol.com.br/v2/',
+      'base_uri'=> 'https://ws.sandbox.pagseguro.uol.com.br',
       'timeout'=>3.0
     ]);
   }

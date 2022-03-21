@@ -3,16 +3,12 @@
 namespace Moldato\PagBankSDK;
 
 use Moldato\PagBankSDK\Contract\InputPublisher;
-use Moldato\PagBankSDK\Contract\Publisher;
 
-class Session {
+class SellerSession {
   private $credentials;
   private $publisher;
-  private $sessionId;
-  /**
-   * @param credentials Credentials
-   */
-  public function __construct( Credentials $credentials ) {
+
+  public function __construct( SellerCredentials $credentials ) {
     $this->credentials = $credentials;
     $this->publisher = new PublisherAdapter();
   }
@@ -26,7 +22,6 @@ class Session {
     ];
 
     $response = $this->publisher->sendPost($inputPublisher);
-    $this->sessionId = $response['id'];
     return $response['id'];
   }
 }

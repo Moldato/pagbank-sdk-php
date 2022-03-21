@@ -2,7 +2,7 @@
 
 namespace Moldato\PagBankSDK;
 
-class Credentials {
+class SellerCredentials {
   public $email;
   public $token;
 }
