@@ -1,48 +1,46 @@
-paymentMode:default
-paymentMethod:creditCard
-receiverEmail:alysonforever@gmail.com
+payment.mode:default
+payment.method:creditCard
 currency:BRL
-extraAmount:0.00
-reference:REF1234
-notificationURL:https://moldato.com/webhook/notification
-itemId1:0001
-itemDescription1:Notebook Prata
-itemAmount1:10300.00
-itemQuantity1:1
-itemId2:0002
-itemDescription2:Notebook Azul
-itemAmount2:10000.00
-itemQuantity2:1
-senderName:Jose Comprador
-senderCPF:22111944785
-senderAreaCode:11
-senderPhone:56273440
-senderEmail:c76860086433255884906@sandbox.pagseguro.com.br
-senderHash:e284617a3f85b877fcdff82ab59148f8fcd85580a5d2241645a06aa95d0e8c08
-shippingAddressStreet:Av. Brig. Faria Lima
-shippingAddressNumber:1384
-shippingAddressComplement:5o andar
-shippingAddressDistrict:Jardim Paulistano
-shippingAddressPostalCode:01452002
-shippingAddressCity:Sao Paulo
-shippingAddressState:SP
-shippingAddressCountry:BRA
-shippingType:1
-shippingCost:01.00
-creditCardToken:29a1d4cfefa24899bc1a796e2d9ed004
-installmentQuantity:7
-installmentValue:3030.94
-noInterestInstallmentQuantity:5
-creditCardHolderName:Jose Comprador
-creditCardHolderCPF:22111944785
-creditCardHolderBirthDate:27/10/1987
-creditCardHolderAreaCode:11
-creditCardHolderPhone:56273440
-billingAddressStreet:Av. Brig. Faria Lima
-billingAddressNumber:1384
-billingAddressComplement:5o andar
-billingAddressDistrict:Jardim Paulistano
-billingAddressPostalCode:01452002
-billingAddressCity:Sao Paulo
-billingAddressState:SP
-billingAddressCountry:BRA
+item[1].id:123
+item[1].description:Product 1 Description
+item[1].amount:100.00
+item[1].quantity:1
+notificationURL:https://moldato.com/webhook
+reference:ORDER123
+sender.name:Customer Name
+sender.CPF:22111944785
+sender.areaCode:11
+sender.phone:56273440
+sender.email:c76860086433255884906@sandbox.pagseguro.com.br
+shipping.address.street:Av. Brig. Faria Lima
+shipping.address.number:1384
+shipping.address.complement:5o andar
+shipping.address.district:Jardim Paulistano
+shipping.address.postalCode:01452002
+shipping.address.city:Sao Paulo
+shipping.address.state:SP
+shipping.address.country:BRA
+shipping.type:3
+shipping.cost:0.00
+installment.value:100.00
+installment.quantity:1
+installment.noInterestInstallmentQuantity:10
+creditCard.token:13579c6312ae4b6cbfdf979662400c1f
+creditCard.holder.name:Customer Name
+creditCard.holder.CPF:22111944785
+creditCard.holder.birthDate:27/10/1987
+creditCard.holder.areaCode:11
+creditCard.holder.phone:56273440
+billingAddress.street:Av. Brig. Faria Lima
+billingAddress.number:1384
+billingAddress.complement:5o andar
+billingAddress.district:Jardim Paulistano
+billingAddress.postalCode:01452002
+billingAddress.city:Sao Paulo
+billingAddress.state:SP
+billingAddress.country:BRA
+primaryReceiver.publicKey:PUBLIC_KEY
+receiver[1].publicKey:PUBLIC_KEY
+receiver[1].split.amount:10.00
+receiver[2].publicKey:PUBLIC_KEY
+receiver[2].split.amount:10.00
